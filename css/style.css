@@ -46,6 +46,8 @@ html, body{
 	background: black;
 	color: white;
 }
+
+
 /*////////////////////////////////////////*/
 
 
@@ -82,7 +84,7 @@ html, body{
   align-content:center;
 	width: 100%;
 	overflow: hidden;
-	background:transparent;
+	background:black;
  position: sticky;
  bottom: 0%;
   padding: 0;
@@ -207,6 +209,30 @@ html, body{
 }
 .facebookred1:hover {
 	 background: #3b5998;
+	 transition: 0.5s;
+}
+.youtubered1 {
+	background: none;
+	padding: 5px 0px 5px 0px;
+	width:12.5%;
+	 order:0;
+  flex:0 1 auto;
+  align-self:auto;
+  height:auto;
+  text-align: center;
+  margin: 0% ;
+}
+
+.youtubered1 h1 {
+	font-size: 15px;
+	padding: 10px;
+	background: none;
+	color: #fff;
+	border-radius: 5px;
+
+}
+.youtubered1:hover {
+	 background: red;
 	 transition: 0.5s;
 }
 
@@ -583,13 +609,26 @@ iframe{
 }
 /*=========== Barra de navegacion ===*/
 .NavBarP,
-.NavBarP-Logo,
 .NavBarP-Nav,
 .NavBarP-Nav > ul,
 .NavBarP-Nav > ul > li,
 .NavBarP-Nav > ul > li > a{
-	height: 50px;
+	height: 60px;
 	line-height: 50px;
+}
+.NavBarP-Logo,{
+	
+}
+.logoimg{
+	position:relative; z-index:4; left:100%;
+	padding-top: 5px;
+	width: 30%;
+	height: 30%;
+	
+	padding-bottom: 5px;
+	position: center;
+
+
 }
 .NavBarP{
 	background-color: #141414;
@@ -804,6 +843,15 @@ display: inline-block;
  	 
  	  display: inline-block;
  }
+ .logoimg{
+	width: 25%;
+	height: 80%;
+	position: static;
+	
+	position: center;
+
+
+}
     .NavBarP-Logo{
     	width: 100%;
     	z-index: 99;
@@ -829,7 +877,8 @@ display: inline-block;
 		display: block;
     }
     .btn-menuMobile{
-    	position: absolute;
+    	padding-top: 5px;
+    	position: fixed;
     	z-index: 100;
     	top: 0;
     	right: 0;
