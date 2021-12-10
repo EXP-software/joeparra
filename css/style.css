@@ -59,7 +59,8 @@ html, body{
   				align-items:center;
   				align-content:center;
   				width: 100%;
-  				background: blac;
+  				background: black
+;position: -webkit-sticky;
 			}
 			.contenedorhijo1 {
 				 order:0;
@@ -76,7 +77,7 @@ html, body{
 
 			.redesinicio0 {
  
-	 display block
+	 display: inline-block
 ;
 	flex-direction:row;
   flex-wrap:nowrap;
