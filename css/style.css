@@ -52,7 +52,7 @@ html, body{
 
 
 .contenedorpadre {
-					display:inline-flex;
+				display:inline-flex;
   				flex-direction:row;
   				flex-wrap:nowrap;
   				justify-content:center;
@@ -60,9 +60,6 @@ html, body{
   				align-content:center;
   				width: 100%;
   				background: black;
-position: -webkit-sticky;
-  position: sticky;
-  top: 0;
 			}
 			.contenedorhijo1 {
 				 order:0;
@@ -78,7 +75,7 @@ position: -webkit-sticky;
 			}
 
 			.redesinicio0 {
-
+ 
 	 display: inline-flex;
 	flex-direction:row;
   flex-wrap:nowrap;
@@ -93,6 +90,7 @@ position: -webkit-sticky;
   padding: 0;
   z-index: 100;
   font-weight: normal;
+ 
 }
 
 .redesinicio0 a {
@@ -109,14 +107,6 @@ position: -webkit-sticky;
 }
  
 
-div.sticky {
-	position: -webkit-sticky;
-	position: sticky;
-	top: 0;
-	background-color: rgb(0, 0, 0);
-	padding: 50px;
-	font-size: 20px;
-}
 
 
 
