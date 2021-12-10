@@ -84,8 +84,8 @@ html, body{
   align-content:center;
 	width: 100%;
 	overflow: hidden;
-	background:black;
- position: -webkit-sticky;
+	background:black ;
+ position: fixed;
  bottom: 0%;
   padding: 0;
   z-index: 100;
