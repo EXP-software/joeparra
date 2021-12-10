@@ -76,7 +76,8 @@ html, body{
 
 			.redesinicio0 {
  
-	 display: inline-flex;
+	 display block
+;
 	flex-direction:row;
   flex-wrap:nowrap;
   justify-content:center;
