@@ -52,7 +52,7 @@ html, body{
 
 
 .contenedorpadre {
-				display:inline-flex;
+				display:block;
   				flex-direction:row;
   				flex-wrap:nowrap;
   				justify-content:center;
@@ -60,6 +60,9 @@ html, body{
   				align-content:center;
   				width: 100%;
   				background: black; 
+position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 			}
 			.contenedorhijo1 {
 				 order:0;
