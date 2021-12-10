@@ -52,14 +52,14 @@ html, body{
 
 
 .contenedorpadre {
-				display:block;
+					display:inline-flex;
   				flex-direction:row;
   				flex-wrap:nowrap;
   				justify-content:center;
   				align-items:center;
   				align-content:center;
   				width: 100%;
-  				background: black; 
+  				background: black;
 position: -webkit-sticky;
   position: sticky;
   top: 0;
@@ -78,24 +78,21 @@ position: -webkit-sticky;
 			}
 
 			.redesinicio0 {
- 
+
 	 display: inline-flex;
 	flex-direction:row;
-        flex-wrap:nowrap;
-        justify-content:center;
-        align-items:flex-start;
-        align-content:center;
+  flex-wrap:nowrap;
+  justify-content:center;
+   align-items:flex-start;
+  align-content:center;
 	width: 100%;
 	overflow: hidden;
-	background:black ;
-        position: -webkit-sticky;
-  position: sticky;
-  top: 0;
+	background:black;
+ position: fixed;
  bottom: 0%;
   padding: 0;
   z-index: 100;
   font-weight: normal;
- 
 }
 
 .redesinicio0 a {
