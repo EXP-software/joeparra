@@ -76,20 +76,18 @@ html, body{
 
 			.redesinicio0 {
  
-	 display: inline-flex
-;
+	 display: inline-flex;
 	flex-direction:row;
-  flex-wrap:nowrap;
-  justify-content:center;
-   align-items:flex-start;
-  align-content:center;
+        flex-wrap:nowrap;
+        justify-content:center;
+        align-items:flex-start;
+        align-content:center;
 	width: 100%;
 	overflow: hidden;
 	background:black ;
-         position: sticky;
-        
-position: -webkit-sticky;
-top: 0;
+        position: -webkit-sticky;
+  position: sticky;
+  top: 0;
  bottom: 0%;
   padding: 0;
   z-index: 100;
