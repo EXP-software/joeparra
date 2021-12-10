@@ -85,7 +85,7 @@ html, body{
 	width: 100%;
 	overflow: hidden;
 	background:black ;
- position: fixed;
+ position: sticky;
  bottom: 0%;
   padding: 0;
   z-index: 100;
