@@ -59,8 +59,7 @@ html, body{
   				align-items:center;
   				align-content:center;
   				width: 100%;
-  				background: black
-;position: -webkit-sticky;
+  				background: black; 
 			}
 			.contenedorhijo1 {
 				 order:0;
@@ -90,6 +89,7 @@ html, body{
          position: sticky;
         
 position: -webkit-sticky;
+top: 0;
  bottom: 0%;
   padding: 0;
   z-index: 100;
